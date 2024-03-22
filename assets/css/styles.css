@@ -1,3 +1,6 @@
+hr{
+    display: none;
+}
 header h1 {
     background-color: #9f9fce;
     color: white;
@@ -9,5 +12,51 @@ header h1 {
     margin: 0 auto;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+    max-width: 80%;
+    margin: 0 auto;
 
+    list-style: none;
+    background-color: blue;
+    margin-top: 1rem;
+    color: whitesmoke;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border-radius: .3rem;
+}
+
+nav ul li{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* @media (min-width: 375px) and (max-width: 667px) {
+    body {
+        background-color: blueviolet;
+    }
+} */
+
+/* @media (max-width: 320px) {
+    body{
+        background-color: blueviolet;
+    }
+} */
+
+@media(max-width:376px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:flex-start;
+    }
+
+    hr{
+        display: block;
+        width: 70%;
+    }
+}
