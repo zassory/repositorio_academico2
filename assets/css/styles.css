@@ -9,28 +9,5 @@ header h1 {
     margin: 0 auto;
 }
 
-.fondo-verde, .fondo-rojo{
-    text-transform: uppercase;
-}
 
-.fondo-verde{
-    background-color: green;
-}
 
-.btn-verde{
-    background-color: rgb(76, 169, 76);
-    border: none;
-    margin-top: 1rem;
-    color: white;
-    text-transform: uppercase;
-    padding-top: .8rem;
-    padding-bottom: .8rem;
-    border-radius: .3rem;
-}
-
-.btn-verde:hover{
-    cursor: pointer;
-    background-color: rgb(41, 108, 41);
-    transition: .3s ease-in;
-    font-weight: bold;
-}
